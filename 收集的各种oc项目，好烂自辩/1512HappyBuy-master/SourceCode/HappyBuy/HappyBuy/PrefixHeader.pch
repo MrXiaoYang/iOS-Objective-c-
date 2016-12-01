@@ -1,0 +1,59 @@
+//
+//  PrefixHeader.pch
+//  HappyBuy
+//
+//  Created by tarena on 16/3/28.
+//  Copyright © 2016年 tedu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import <AFNetworking.h>
+/** AF对UI开头类的Category，比如说imageView本身不带有加载网络图片的功能，AF提供了此功能。 有网络操作时可以在电池条显示活动提示 */
+#import <UIKit+AFNetworking.h>
+//下方宏定义是从Masonry中拷贝的, 可以将mas_equalTo形式转化为equalTo, 写起来更顺滑
+#define equalTo(...)                     mas_equalTo(__VA_ARGS__)
+#define greaterThanOrEqualTo(...)        mas_greaterThanOrEqualTo(__VA_ARGS__)
+#define lessThanOrEqualTo(...)           mas_lessThanOrEqualTo(__VA_ARGS__)
+
+#define offset(...)                      mas_offset(__VA_ARGS__)
+
+#import <Masonry.h>
+
+#import <BlocksKit.h>
+#import <BlocksKit+UIKit.h>
+
+#import "UIView+HUD.h"
+#import "UIScrollView+Refresh.h"
+
+#import "Constants.h"
+
+#import "NSObject+Netwoking.h"
+#import "NSObject+Parse.h"
+#import "NSObject+ViewModel.h"
+#import "NSString+YX.h"
+
+#import <YYKit.h>
+
+#import <CocoaLumberjack.h> //优秀的替换NSLog的第三方，更加省资源，并且可以定义打印级别
+#ifdef DEBUG
+static const int ddLogLevel = DDLogLevelVerbose;
+#else
+static const int
+= DDLogLevelError;
+#endif
+
+#import "Factory.h"
+
+#endif /* PrefixHeader_pch */
+
+
+
+
+
+
+

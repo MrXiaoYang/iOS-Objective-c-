@@ -1,0 +1,37 @@
+10
+
+dir
+397
+svn://wudong@101.200.174.143/iOSNew/video_test/iOS107/FreshMeet/AMapGaoDe/GDSdk
+svn://wudong@101.200.174.143/iOSNew
+
+
+
+2016-03-28T01:39:27.037420Z
+209
+liboqiao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4b773df9-da60-49a5-9b2b-43371828d181
+
+MAMapKit.framework
+dir
+
+AMapSearchKit.framework
+dir
+
+AMapLocationKit.framework
+dir
+

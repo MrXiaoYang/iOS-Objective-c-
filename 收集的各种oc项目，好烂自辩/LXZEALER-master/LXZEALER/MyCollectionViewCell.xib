@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="N7L-ip-hIt" customClass="MyCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="157" height="157"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="157" height="157"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9wC-9E-75q">
+                        <rect key="frame" x="0.0" y="0.0" width="157" height="157"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_me_about" translatesAutoresizingMaskIntoConstraints="NO" id="PYi-kA-VnM">
+                                <rect key="frame" x="28" y="29" width="100" height="100"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PYi-kA-VnM" firstAttribute="centerY" secondItem="9wC-9E-75q" secondAttribute="centerY" id="CsT-z1-zDy"/>
+                            <constraint firstItem="PYi-kA-VnM" firstAttribute="centerX" secondItem="9wC-9E-75q" secondAttribute="centerX" id="Gi2-an-6A6"/>
+                            <constraint firstItem="PYi-kA-VnM" firstAttribute="leading" secondItem="9wC-9E-75q" secondAttribute="leadingMargin" constant="20" id="MTp-IP-6iS"/>
+                            <constraint firstItem="PYi-kA-VnM" firstAttribute="top" secondItem="9wC-9E-75q" secondAttribute="topMargin" constant="21" id="viu-Ud-hl8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="9wC-9E-75q" secondAttribute="trailing" id="BnS-TY-PHd"/>
+                <constraint firstItem="9wC-9E-75q" firstAttribute="top" secondItem="N7L-ip-hIt" secondAttribute="top" id="LQl-5K-v4K"/>
+                <constraint firstAttribute="bottom" secondItem="9wC-9E-75q" secondAttribute="bottom" id="l5x-k4-KeJ"/>
+                <constraint firstItem="9wC-9E-75q" firstAttribute="leading" secondItem="N7L-ip-hIt" secondAttribute="leading" id="p5M-ec-jJU"/>
+            </constraints>
+            <size key="customSize" width="157" height="148"/>
+            <connections>
+                <outlet property="nemuItemImage" destination="PYi-kA-VnM" id="MDG-ZE-25J"/>
+            </connections>
+            <point key="canvasLocation" x="420.5" y="276.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon_me_about" width="70" height="70"/>
+    </resources>
+</document>

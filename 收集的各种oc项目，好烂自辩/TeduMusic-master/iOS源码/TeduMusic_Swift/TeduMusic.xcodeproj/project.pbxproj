@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		388B19CF1C1D262200CF7FB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B19CE1C1D262200CF7FB0 /* AppDelegate.swift */; };
+		388B19D41C1D262200CF7FB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388B19D21C1D262200CF7FB0 /* Main.storyboard */; };
+		388B19D61C1D262200CF7FB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388B19D51C1D262200CF7FB0 /* Assets.xcassets */; };
+		388B19D91C1D262200CF7FB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388B19D71C1D262200CF7FB0 /* LaunchScreen.storyboard */; };
+		388B19F31C1D328A00CF7FB0 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B19F21C1D328A00CF7FB0 /* Constant.swift */; };
+		388B19F51C1D32A900CF7FB0 /* PrefixHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B19F41C1D32A900CF7FB0 /* PrefixHeader.swift */; };
+		388B19F71C1D32E900CF7FB0 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B19F61C1D32E900CF7FB0 /* Factory.swift */; };
+		388B19F91C1D32F600CF7FB0 /* BaseNetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B19F81C1D32F600CF7FB0 /* BaseNetManager.swift */; };
+		388B19FB1C1D330800CF7FB0 /* MusicHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B19FA1C1D330800CF7FB0 /* MusicHouseViewController.swift */; };
+		388B19FD1C1D331200CF7FB0 /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B19FC1C1D331200CF7FB0 /* DiscoveryViewController.swift */; };
+		388B19FF1C1D331D00CF7FB0 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B19FE1C1D331D00CF7FB0 /* MineViewController.swift */; };
+		388B1A011C1D33C900CF7FB0 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B1A001C1D33C900CF7FB0 /* TabBarViewController.swift */; };
+		EAD2627A506DE8F1CE965A81 /* Pods_TeduMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24037B3864DAAD034987084D /* Pods_TeduMusic.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24037B3864DAAD034987084D /* Pods_TeduMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeduMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		388B19CB1C1D262200CF7FB0 /* TeduMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeduMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		388B19CE1C1D262200CF7FB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		388B19D31C1D262200CF7FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		388B19D51C1D262200CF7FB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		388B19D81C1D262200CF7FB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		388B19DA1C1D262200CF7FB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		388B19F21C1D328A00CF7FB0 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		388B19F41C1D32A900CF7FB0 /* PrefixHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrefixHeader.swift; sourceTree = "<group>"; };
+		388B19F61C1D32E900CF7FB0 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		388B19F81C1D32F600CF7FB0 /* BaseNetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNetManager.swift; sourceTree = "<group>"; };
+		388B19FA1C1D330800CF7FB0 /* MusicHouseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicHouseViewController.swift; sourceTree = "<group>"; };
+		388B19FC1C1D331200CF7FB0 /* DiscoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
+		388B19FE1C1D331D00CF7FB0 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		388B1A001C1D33C900CF7FB0 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		C0EE054580ED0A3694BF9FA9 /* Pods-TeduMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeduMusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeduMusic/Pods-TeduMusic.debug.xcconfig"; sourceTree = "<group>"; };
+		FC7B6A08D3783F3ADE2A6F07 /* Pods-TeduMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeduMusic.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeduMusic/Pods-TeduMusic.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		388B19C81C1D262200CF7FB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD2627A506DE8F1CE965A81 /* Pods_TeduMusic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		388B19C21C1D262200CF7FB0 = {
+			isa = PBXGroup;
+			children = (
+				388B19CD1C1D262200CF7FB0 /* TeduMusic */,
+				388B19CC1C1D262200CF7FB0 /* Products */,
+				CB33A42053714B7709AFBD5B /* Pods */,
+				83AB6A912F936423364C546C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		388B19CC1C1D262200CF7FB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				388B19CB1C1D262200CF7FB0 /* TeduMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		388B19CD1C1D262200CF7FB0 /* TeduMusic */ = {
+			isa = PBXGroup;
+			children = (
+				388B19EF1C1D26EF00CF7FB0 /* Resource */,
+				388B19E01C1D26D000CF7FB0 /* Define */,
+				388B19E31C1D26D000CF7FB0 /* Factory */,
+				388B19E51C1D26D000CF7FB0 /* NetManager */,
+				388B19E71C1D26D000CF7FB0 /* ViewController */,
+				388B19CE1C1D262200CF7FB0 /* AppDelegate.swift */,
+			);
+			path = TeduMusic;
+			sourceTree = "<group>";
+		};
+		388B19E01C1D26D000CF7FB0 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				388B19F21C1D328A00CF7FB0 /* Constant.swift */,
+				388B19F41C1D32A900CF7FB0 /* PrefixHeader.swift */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		388B19E31C1D26D000CF7FB0 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				388B19F61C1D32E900CF7FB0 /* Factory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		388B19E51C1D26D000CF7FB0 /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+				388B19F81C1D32F600CF7FB0 /* BaseNetManager.swift */,
+			);
+			path = NetManager;
+			sourceTree = "<group>";
+		};
+		388B19E71C1D26D000CF7FB0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				388B19E81C1D26D000CF7FB0 /* 乐馆 */,
+				388B19E91C1D26D000CF7FB0 /* 发现 */,
+				388B19EA1C1D26D000CF7FB0 /* 我的 */,
+				388B1A001C1D33C900CF7FB0 /* TabBarViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		388B19E81C1D26D000CF7FB0 /* 乐馆 */ = {
+			isa = PBXGroup;
+			children = (
+				388B19FA1C1D330800CF7FB0 /* MusicHouseViewController.swift */,
+			);
+			path = "乐馆";
+			sourceTree = "<group>";
+		};
+		388B19E91C1D26D000CF7FB0 /* 发现 */ = {
+			isa = PBXGroup;
+			children = (
+				388B19FC1C1D331200CF7FB0 /* DiscoveryViewController.swift */,
+			);
+			path = "发现";
+			sourceTree = "<group>";
+		};
+		388B19EA1C1D26D000CF7FB0 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				388B19FE1C1D331D00CF7FB0 /* MineViewController.swift */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		388B19EF1C1D26EF00CF7FB0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				388B19D21C1D262200CF7FB0 /* Main.storyboard */,
+				388B19D51C1D262200CF7FB0 /* Assets.xcassets */,
+				388B19D71C1D262200CF7FB0 /* LaunchScreen.storyboard */,
+				388B19DA1C1D262200CF7FB0 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		83AB6A912F936423364C546C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24037B3864DAAD034987084D /* Pods_TeduMusic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB33A42053714B7709AFBD5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0EE054580ED0A3694BF9FA9 /* Pods-TeduMusic.debug.xcconfig */,
+				FC7B6A08D3783F3ADE2A6F07 /* Pods-TeduMusic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		388B19CA1C1D262200CF7FB0 /* TeduMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388B19DD1C1D262200CF7FB0 /* Build configuration list for PBXNativeTarget "TeduMusic" */;
+			buildPhases = (
+				C0B39AD09BBD003AC85049A4 /* Check Pods Manifest.lock */,
+				388B19C71C1D262200CF7FB0 /* Sources */,
+				388B19C81C1D262200CF7FB0 /* Frameworks */,
+				388B19C91C1D262200CF7FB0 /* Resources */,
+				E02FB80C3D7218B2964893C6 /* Embed Pods Frameworks */,
+				EE94AAC8D58E3001FF7988E2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeduMusic;
+			productName = TeduMusic;
+			productReference = 388B19CB1C1D262200CF7FB0 /* TeduMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		388B19C31C1D262200CF7FB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Tarena;
+				TargetAttributes = {
+					388B19CA1C1D262200CF7FB0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 388B19C61C1D262200CF7FB0 /* Build configuration list for PBXProject "TeduMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 388B19C21C1D262200CF7FB0;
+			productRefGroup = 388B19CC1C1D262200CF7FB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				388B19CA1C1D262200CF7FB0 /* TeduMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		388B19C91C1D262200CF7FB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388B19D91C1D262200CF7FB0 /* LaunchScreen.storyboard in Resources */,
+				388B19D61C1D262200CF7FB0 /* Assets.xcassets in Resources */,
+				388B19D41C1D262200CF7FB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C0B39AD09BBD003AC85049A4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E02FB80C3D7218B2964893C6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeduMusic/Pods-TeduMusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE94AAC8D58E3001FF7988E2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeduMusic/Pods-TeduMusic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		388B19C71C1D262200CF7FB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388B19F51C1D32A900CF7FB0 /* PrefixHeader.swift in Sources */,
+				388B19FB1C1D330800CF7FB0 /* MusicHouseViewController.swift in Sources */,
+				388B19FF1C1D331D00CF7FB0 /* MineViewController.swift in Sources */,
+				388B19CF1C1D262200CF7FB0 /* AppDelegate.swift in Sources */,
+				388B1A011C1D33C900CF7FB0 /* TabBarViewController.swift in Sources */,
+				388B19F71C1D32E900CF7FB0 /* Factory.swift in Sources */,
+				388B19F91C1D32F600CF7FB0 /* BaseNetManager.swift in Sources */,
+				388B19F31C1D328A00CF7FB0 /* Constant.swift in Sources */,
+				388B19FD1C1D331200CF7FB0 /* DiscoveryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		388B19D21C1D262200CF7FB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388B19D31C1D262200CF7FB0 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		388B19D71C1D262200CF7FB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388B19D81C1D262200CF7FB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		388B19DB1C1D262200CF7FB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		388B19DC1C1D262200CF7FB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		388B19DE1C1D262200CF7FB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0EE054580ED0A3694BF9FA9 /* Pods-TeduMusic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TeduMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarena.TeduMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		388B19DF1C1D262200CF7FB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC7B6A08D3783F3ADE2A6F07 /* Pods-TeduMusic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TeduMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarena.TeduMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		388B19C61C1D262200CF7FB0 /* Build configuration list for PBXProject "TeduMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388B19DB1C1D262200CF7FB0 /* Debug */,
+				388B19DC1C1D262200CF7FB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388B19DD1C1D262200CF7FB0 /* Build configuration list for PBXNativeTarget "TeduMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388B19DE1C1D262200CF7FB0 /* Debug */,
+				388B19DF1C1D262200CF7FB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 388B19C31C1D262200CF7FB0 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_TeduMusic {
+  umbrella header "Pods-TeduMusic-umbrella.h"
+
+  export *
+  module * { export * }
+}

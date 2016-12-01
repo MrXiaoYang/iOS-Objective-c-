@@ -1,0 +1,33 @@
+PODS:
+  - MBProgressHUD (0.9.1)
+  - MJRefresh (2.4.8)
+  - SDCycleScrollView (1.3)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - WeiboSDK (3.1.3)
+
+DEPENDENCIES:
+  - MBProgressHUD
+  - MJRefresh
+  - SDCycleScrollView (~> 1.3)
+  - SDWebImage
+  - WeiboSDK (from `https://github.com/sinaweibosdk/weibo_ios_sdk.git`)
+
+EXTERNAL SOURCES:
+  WeiboSDK:
+    :git: https://github.com/sinaweibosdk/weibo_ios_sdk.git
+
+CHECKOUT OPTIONS:
+  WeiboSDK:
+    :commit: 2ae2945fff7844abc0ba809a15bd638474a0ed69
+    :git: https://github.com/sinaweibosdk/weibo_ios_sdk.git
+
+SPEC CHECKSUMS:
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJRefresh: 887c9ee5ff155533d7d9c20098bebb7b847b2fcb
+  SDCycleScrollView: 90e43636fcc8e6a7f74e8b64d87418a8e96549b4
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  WeiboSDK: 5f2a707c4569a64f4641f4171acd712016f24342
+
+COCOAPODS: 0.39.0

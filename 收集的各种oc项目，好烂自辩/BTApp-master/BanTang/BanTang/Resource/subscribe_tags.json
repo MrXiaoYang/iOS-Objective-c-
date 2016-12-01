@@ -1,0 +1,56 @@
+{
+    "status": 1,
+    "msg": "ok",
+    "data": [
+             {
+             "id": "4",
+             "name": "吃货",
+             "en_name": "Eater"
+             },
+             {
+             "id": "1",
+             "name": "宜家",
+             "en_name": "IKEA"
+             },
+             {
+             "id": "2",
+             "name": "无印良品",
+             "en_name": "MUJI"
+             },
+             {
+             "id": "8",
+             "name": "护肤",
+             "en_name": "Skin Care"
+             },
+             {
+             "id": "19",
+             "name": "美妆",
+             "en_name": "Beauty"
+             },
+             {
+             "id": "11",
+             "name": "礼物",
+             "en_name": "Gift"
+             },
+             {
+             "id": "21",
+             "name": "家居",
+             "en_name": "Home"
+             },
+             {
+             "id": "12",
+             "name": "神器",
+             "en_name": "Artifact"
+             },
+             {
+             "id": "22",
+             "name": "杂货",
+             "en_name": "Groceries"
+             },
+             {
+             "id": "20",
+             "name": "科技",
+             "en_name": "Tech"
+             }
+             ]
+}
